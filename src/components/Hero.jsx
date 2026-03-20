@@ -43,7 +43,7 @@ export default function Hero() {
         <div>
 
           <p className="uppercase tracking-widest text-indigo-300 mb-3">
-            Available for opportunities
+            Available for impactful tech opportunities
           </p>
 
           <h2 className="text-5xl md:text-6xl font-extrabold mb-4">
@@ -62,10 +62,10 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="mt-8 flex gap-4 flex-wrap">
             <a
-              href="#projects"
+              href="#Experiences"
               className="bg-purple-200 text-black px-6 py-3 rounded-lg font-bold shadow-lg hover:scale-105 transition"
             >
-              View Projects
+              View Experiences
             </a>
 
             <a
