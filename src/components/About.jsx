@@ -26,7 +26,7 @@ export default function About() {
               I build things for the web that people actually enjoy using.
             </h3>
 
-            <p className="mb-5 text-grey-700 dark:text-purple-300 text-lg">
+            <p className="mb-5 text-grey-700 dark:text-purple-300">
               I'm a Frontend Engineer passionate about crafting fast,
               accessible, and visually polished applications using
               React and modern JavaScript.
@@ -38,9 +38,15 @@ export default function About() {
               feel smooth and intuitive.
             </p>
 
-            <p className="text-grey-700 dark:text-purple-300">
+            <p className="mb-5 text-grey-700 dark:text-purple-300">
               Currently I am open to opportunities where I can learn,
-              contribute, and help build impactful digital products 🚀
+              contribute, and help build impactful digital products 
+            </p>
+
+             <p className="text-grey-700 dark:text-purple-300">
+              Outside of coding, I enjoy creating art in my free time and love to travel. 
+              I’m passionate about experiencing different cultures through food and exploring new 
+              places around the world.
             </p>
 
             {/* Fun badges */}
@@ -64,7 +70,7 @@ export default function About() {
           <div className="grid grid-cols-2 gap-6">
 
             <div className="bg-white dark:bg-purple-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
-              <p className="text-3xl font-bold text-cyan-400">🇨🇦</p>
+              <p className="text-3xl font-bold text-cyan-400">🌍</p>
               <h4 className="mt-2 font-semibold dark:text-white">
                 Location
               </h4>
@@ -74,9 +80,9 @@ export default function About() {
             </div>
 
             <div className="bg-white dark:bg-purple-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
-              <p className="text-3xl font-bold text-purple-400">💼</p>
+              <p className="text-3xl font-bold text-purple-400">🇨🇦</p>
               <h4 className="mt-2 font-semibold dark:text-white">
-                Status
+                Work Authorization
               </h4>
               <p className="text-gray-600 dark:text-purple-300">
                 Canadian Citizen
@@ -89,7 +95,9 @@ export default function About() {
                 Focus
               </h4>
               <p className="text-gray-600 dark:text-purple-300">
-                Frontend Engineering
+                <p>Frontend Engineering</p>
+                <p>UI developement</p>
+                Frontend Lead
               </p>
             </div>
 
@@ -99,7 +107,8 @@ export default function About() {
                 Education
               </h4>
               <p className="text-gray-600 dark:text-purple-300">
-                Bachelor of Technology (Computer Science)
+                <p>Bachelor of Technology (Computer Science)</p>
+                BPUT, Rourkela, India
               </p>
             </div>
 

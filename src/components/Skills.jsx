@@ -3,13 +3,18 @@ import React from "react";
 const skills = [
   "JavaScript",
   "React",
-  "HTML",
-  "CSS",
+  "Next.js",
+  "HTML5",
+  "CSS3",
+  "Sass",
   "Tailwind",
   "TypeScript",
   "REST APIs",
   "Git",
   "Responsive Design",
+  "CI/CD pipelines",
+  "SEO",
+  "Unit Testing"
 ];
 
 export default function Skills() {

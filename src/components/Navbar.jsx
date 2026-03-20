@@ -9,7 +9,7 @@ export default function Navbar() {
         </h1>
 
         <div className="flex gap-6 items-center">
-          <a href="#projects">Projects</a>
+          <a href="#Experiences">Experiences</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
 

@@ -86,10 +86,13 @@ export default function Hero() {
               JavaScript
             </span>
             <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
-              Tailwind
+              Next.js
             </span>
             <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
-              UI/UX
+              Typescript
+            </span>
+             <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
+              Responsive Web
             </span>
           </div>
         </div>
