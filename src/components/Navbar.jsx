@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
 
         {/* Logo / Name */}
-       <h1 className="font-fancy font-extrabold text-2xl text-purple-600 dark:text-cyan-400">
+       <h1 className="font-fancy font-extrabold text-2xl text-purple-900">
         Sudipta Dey
        </h1>
 

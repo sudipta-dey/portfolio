@@ -1,15 +1,17 @@
 import React from "react";
 
 const skills = [
-  "JavaScript",
   "React",
+  "React Native",
   "Redux",
   "Next.js",
+  "JavaScript",
+  "TypeScript",
   "HTML5",
   "CSS3",
   "Sass",
   "Tailwind",
-  "TypeScript",
+  "Bootstrap",
   "REST APIs",
   "Git",
   "Storybook",
@@ -19,8 +21,7 @@ const skills = [
   "Jest",
   "React Testing Library",
   "Cypress",
-  "Bootstrap",
-  "React Native",
+  "Web Developement"
 ];
 
 export default function Skills() {

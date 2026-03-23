@@ -26,24 +26,24 @@ export default function About() {
               I build things for the web that people actually enjoy using.
             </h3>
 
-            <p className="mb-5 text-grey-700 dark:text-purple-300">
-              I'm a Frontend Engineer passionate about crafting fast,
+            <p className="mb-5 text-grey-700 ">
+              I'm a Senior Frontend Engineer, Lead passionate about crafting fast,
               accessible, and visually polished applications using
               React and modern JavaScript.
             </p>
 
-            <p className="mb-5 text-grey-700 dark:text-purple-300">
+            <p className="mb-5 text-grey-700 ">
               I love turning complex ideas into clean interfaces,
               optimizing performance, and creating experiences that
               feel smooth and intuitive.
             </p>
 
-            <p className="mb-5 text-grey-700 dark:text-purple-300">
+            <p className="mb-5 text-grey-700 ">
               Currently I am open to opportunities where I can learn,
               contribute, and help build impactful digital products 
             </p>
 
-             <p className="text-grey-700 dark:text-purple-300">
+             <p className="text-grey-700 ">
               Outside of coding, I enjoy creating art in my free time and love to travel. 
               I’m passionate about experiencing different cultures through food and exploring new 
               places around the world.
@@ -54,10 +54,10 @@ export default function About() {
               <span className="bg-cyan-400/20 text-cyan-300 px-4 py-1 rounded-full">
                 React
               </span>
-              <span className="bg-purple-400/20 text-purple-300 px-4 py-1 rounded-full">
+              <span className="bg-purple-400/20 ttext-cyan-300 px-4 py-1 rounded-full">
                 UI/UX Focused
               </span>
-              <span className="bg-pink-400/20 text-pink-300 px-4 py-1 rounded-full">
+              <span className="bg-pink-400/20 text-cyan-300 px-4 py-1 rounded-full">
                 Performance
               </span>
               <span className="bg-emerald-400/20 text-emerald-300 px-4 py-1 rounded-full">
@@ -69,46 +69,45 @@ export default function About() {
           {/* RIGHT — VIBRANT STATS / INFO */}
           <div className="grid grid-cols-2 gap-6">
 
-            <div className="bg-white dark:bg-purple-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+            <div className="bg-white  p-6 rounded-xl shadow-lg hover:scale-105 transition">
               <p className="text-3xl font-bold text-cyan-400">🌍</p>
               <h4 className="mt-2 font-semibold dark:text-white">
                 Location
               </h4>
-              <p className="text-gray-600 dark:text-purple-300">
+              <p className="text-gray-600 ">
                 Toronto, Ontario, Canada
               </p>
             </div>
 
-            <div className="bg-white dark:bg-purple-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+            <div className="bg-white  p-6 rounded-xl shadow-lg hover:scale-105 transition">
               <p className="text-3xl font-bold text-purple-400">🇨🇦</p>
               <h4 className="mt-2 font-semibold dark:text-white">
                 Work Authorization
               </h4>
-              <p className="text-gray-600 dark:text-purple-300">
+              <p className="text-gray-600 ">
                 Canadian Citizen
               </p>
             </div>
 
-            <div className="bg-white dark:bg-purple-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+            <div className="bg-white  p-6 rounded-xl shadow-lg hover:scale-105 transition">
               <p className="text-3xl font-bold text-pink-400">⚡</p>
               <h4 className="mt-2 font-semibold dark:text-white">
                 Focus
               </h4>
-              <p className="text-gray-600 dark:text-purple-300">
+              <p className="text-gray-600 ">
                 <p>Frontend Engineering</p>
                 <p>UI developement</p>
                 Frontend Lead
               </p>
             </div>
 
-            <div className="bg-white dark:bg-purple-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+            <div className="bg-white  p-6 rounded-xl shadow-lg hover:scale-105 transition">
               <p className="text-3xl font-bold text-emerald-400">🎓</p>
               <h4 className="mt-2 font-semibold dark:text-white">
                 Education
               </h4>
-              <p className="text-gray-600 dark:text-purple-300">
+              <p className="text-gray-600 ">
                 <p>Bachelor of Technology (Computer Science)</p>
-                BPUT, Rourkela, India
               </p>
             </div>
 

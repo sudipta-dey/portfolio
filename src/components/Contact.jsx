@@ -10,15 +10,15 @@ export default function Contact() {
         Contact Me
       </h2>
 
-      <p className="mb-4 dark:text-purple-300">
+      <p className="mb-4">
         Open to opportunities and freelance work.
       </p>
 
-      <p className="font-semibold dark:text-white">
+      <p className="font-semibold">
         📧 sudipta152@gmail.com
       </p>
 
-      <div className="mt-6 flex justify-center gap-6">
+      <div className="mt-6 flex justify-center gap-6 text-indigo-600">
         <a href="https://github.com/sudipta-dey">GitHub</a>
         <a href="https://www.linkedin.com/in/sudipta-dey-21b67846/">LinkedIn</a>
       </div>

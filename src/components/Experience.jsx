@@ -61,22 +61,22 @@ export default function Experience() {
               transition={{ delay: i * 0.2, duration: 0.5 }}
             >
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-purple-600 dark:text-cyan-400">
+                <h3 className="text-xl font-bold mb-2 text-purple-600 ">
                   {p.title}
                 </h3>
-                <p className="mb-1 text-gray-600 dark:text-gray-300 font-semibold">
+                <p className="mb-1 text-gray-600  font-semibold">
                   {p.duration}
                 </p>
-                <p className="mb-4 text-gray-600 dark:text-gray-300">
+                <p className="mb-4 text-gray-600 ">
                   {p.location}
                 </p>
-                <p className="mb-4 text-gray-700 dark:text-gray-200">
+                <p className="mb-4 text-gray-700 ">
                   {p.desc}
                 </p>
 
                 <a
                   href={p.link}
-                  className="text-cyan-400 dark:text-purple-300 font-medium hover:underline"
+                  className="text-indigo-600 font-medium hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

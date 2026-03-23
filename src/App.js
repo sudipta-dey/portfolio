@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
@@ -8,6 +8,11 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Sudipta Dey – Senior Frontend Engineer | Lead Portfolio";
+  }, []);
+
   return (
     <div className="font-sans">
       <Navbar />

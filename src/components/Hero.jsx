@@ -77,24 +77,7 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Floating tech badges */}
-          <div className="mt-10 flex gap-4 flex-wrap text-sm text-gray-300">
-            <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
-              React
-            </span>
-            <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
-              JavaScript
-            </span>
-            <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
-              Next.js
-            </span>
-            <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
-              Typescript
-            </span>
-             <span className="px-3 py-1 bg-white/10 rounded-full backdrop-blur">
-              Responsive Web
-            </span>
-          </div>
+        
         </div>
 
         {/* RIGHT — PROFILE IMAGE */}
