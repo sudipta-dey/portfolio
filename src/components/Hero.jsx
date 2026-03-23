@@ -1,35 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function Hero() {
-  const roles = [
-    "Senior Frontend Engineer",
-    "Senior UI Developer",
-    "UI Specialist",
-    "Web Performance Enthusiast",
-  ];
-
-  const [text, setText] = useState("");
-  const [index, setIndex] = useState(0);
-  const [subIndex, setSubIndex] = useState(0);
-
-  // Typing animation
-  useEffect(() => {
-    if (subIndex === roles[index].length) {
-      setTimeout(() => {
-        setSubIndex(0);
-        setIndex((index + 1) % roles.length);
-      }, 1200);
-      return;
-    }
-
-    const timeout = setTimeout(() => {
-      setSubIndex(subIndex + 1);
-      setText(roles[index].substring(0, subIndex + 1));
-    }, 70);
-
-    return () => clearTimeout(timeout);
-  }, [subIndex, index, roles]);
-
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-900 via-purple-900 to-black text-white">
 
