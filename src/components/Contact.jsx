@@ -19,8 +19,12 @@ export default function Contact() {
       </p>
 
       <div className="mt-6 flex justify-center gap-6 text-indigo-600">
-        <a href="https://github.com/sudipta-dey">GitHub</a>
-        <a href="https://www.linkedin.com/in/sudipta-dey-21b67846/">LinkedIn</a>
+        <a href="https://github.com/sudipta-dey" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/sudipta-dey-21b67846/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
       </div>
     </section>
   );
